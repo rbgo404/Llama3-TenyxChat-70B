@@ -4,9 +4,8 @@ Llama-3-TenyxChat-70B was trained using eight A100s (80GB) for fifteen hours, 
 
 
 ## TL;DR:
-
 - Deployment of Llama3-TenyxChat-70B model using [bitsandbytes](https://github.com/TimDettmers/bitsandbytes/).
-- By using the Audiocraft, you can expect an average latency of `1.63 sec` and throughput of 78.65 tokens per second. This setup has an average cold start time of `13.30 sec`.
+- You can expect an average latency of `20.14 sec` and throughput of 6.2 tokens per second. This setup has an average cold start time of `28.32 sec`.
 - Dependencies defined in `inferless-runtime-config.yaml`.
 - GitHub/GitLab template creation with `app.py`, `inferless-runtime-config.yaml` and `inferless.yaml`.
 - Model class in `app.py` with `initialize`, `infer`, and `finalize` functions.
