@@ -1,8 +1,7 @@
 from transformers import (
     AutoModelForCausalLM,
     AutoTokenizer,
-    BitsAndBytesConfig,
-    AutoTokenizer
+    BitsAndBytesConfig
 )
 
 class InferlessPythonModel:    
